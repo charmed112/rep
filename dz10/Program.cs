@@ -23,6 +23,7 @@ string input6 = Console.ReadLine();
 double z2 = double.Parse(input6);
 
 double d = Math.Sqrt(Math.Pow((x1-x2),2) + Math.Pow((y1-y2),2) + Math.Pow((z1-z2),2));
+d = Math.Round(d, 2);
 Console.WriteLine($"Расстояние между кординатами: {d}");
 
 
